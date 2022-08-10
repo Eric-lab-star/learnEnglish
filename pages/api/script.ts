@@ -1,5 +1,4 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import { withIronSessionApiRoute } from "iron-session/next";
 export default function Script(req: NextApiRequest, res: NextApiResponse) {
   const script = {
     "L.2.wav": "what are you looking at John?",

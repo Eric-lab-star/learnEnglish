@@ -1,4 +1,4 @@
-const script = {
+const script: { [key: string]: string } = {
   "L.2.wav": "what are you looking at John?",
   "L.3.wav": "It’s a picture of my elementary school trip six years ago",
   "L.4.wav": "Which one are you in the picture?",
